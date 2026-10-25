@@ -22,8 +22,8 @@ source "$ZDOTDIR/plugins/input/init.zsh"
 
 
 # Zsh-Extract
-[ ! -d "$ZDOTDIR/plugins/zsh-extract" ] && git clone --depth 1 https://github.com/le0me55i/zsh-extract "$ZDOTDIR/plugins/zsh-extract"
-source "$ZDOTDIR/plugins/zsh-extract/extract.plugin.zsh"
+# [ ! -d "$ZDOTDIR/plugins/zsh-extract" ] && git clone --depth 1 https://github.com/le0me55i/zsh-extract "$ZDOTDIR/plugins/zsh-extract"
+# source "$ZDOTDIR/plugins/zsh-extract/extract.plugin.zsh"
 
 # --- 5. SYNTAX HIGHLIGHTING ---
 if [ -f "/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" ]; then
